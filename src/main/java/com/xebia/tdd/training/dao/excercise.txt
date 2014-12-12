@@ -1,0 +1,4 @@
+HotelDao.java
+
+1. Add a method to the HotelDao class that takes the hotelId as input and returns the Hotel object.
+2. Add a method to the HotelDao class that returns the list of all the hotels

@@ -1,0 +1,4 @@
+* Write the test cases for the method com.xebia.tdd.training.hotelreservation.chapter1.Sort.mergeAndSort method.
+  - Make used of hamchrest Matchers and explore its API.
+  - Write the same test using DataPoints.
+  - Write the same test using Parameterized class. 

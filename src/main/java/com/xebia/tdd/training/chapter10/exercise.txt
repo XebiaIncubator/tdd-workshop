@@ -1,0 +1,27 @@
+Requirements
+=====================================================================
+
+There are always few people who have couple of vacant non rented beautiful apartments and they are lazy enough not to 
+get them enough attraction to be occupied. As a Product Owner I have a business Idea where I can see making some money out 
+of these properties. So to begin with  
+
+# I want to expose a rest service, using which people can Add/Update/Delete/List their apartments. An Apartment should have 
+at least these basic fields.
+
+* Apartment Address
+* Number Of Rooms
+* Apartment Type (Luxury /  Budget) 
+* Average Price per Day
+* Description of facilities near by
+* Owner Name
+
+# The URL of the service should be like  "http://localhost:8080/HotelReservation/apartment/" 
+# Add/Update/Delete/List operation should follow the regular REST guidelines.
+# When an owner adds an apartment as a response he should receive an apartment id , which 
+can be used later to update/Delete/List the apartment.
+
+
+Output 
+1) Complete Unit Test for - Controller , Service , DAO.
+2) A Smoke Test to verify the happy path scenarios.
+3) Using a Rest Poster Client I should be able to do all the above operations. 

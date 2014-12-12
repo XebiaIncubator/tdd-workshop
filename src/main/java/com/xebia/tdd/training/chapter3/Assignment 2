@@ -1,0 +1,11 @@
+CreditCard Validation Service
+
+Create a simple java service that takes a Credit Card number and Type as Input and validates it. 
+For Validation, we can use third party APIs "VisaValidator", "MasterValidator" and "AmexValidator". 
+These API are paid service, so we need to ensure we do the basic validations before calling the API
+
+Basic Checks before calling the third party
+1. Credit Card Number should be exactly 16 digits
+2. VISA Credit Card Number should start with 1 and should not end with 9
+3. Amex Credit Card Number should start with 3 and should not end with 7
+4. Master Credit Card Number should start with 5 and should not end with 5

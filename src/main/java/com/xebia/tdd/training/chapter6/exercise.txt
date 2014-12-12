@@ -1,0 +1,11 @@
+1) Write the test cases for the getAllAdvertisements() method in AdvertisementService
+
+2) Write the test cases for the getUpdatedHotelRatings() method in HotelRatingService
+
+3) Write the test cases for the saveUser() method in UserService
+
+4) Write the test cases for the saveEmail() method in EmailDAO
+
+5) Write the test cases for the getPaymentOption() method in PaymentOptionsFactory
+
+6) Write the test cases for the doReservation() method in ReservationService  

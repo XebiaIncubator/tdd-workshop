@@ -1,0 +1,7 @@
+City Sort Service
+
+Create a service that take a List of Cities as input and returns a sorted list. 
+List needs to be sorted in Ascending or Descending Order based of the Configuration 
+stored in the database.
+
+Configuration Table will store the configuration.

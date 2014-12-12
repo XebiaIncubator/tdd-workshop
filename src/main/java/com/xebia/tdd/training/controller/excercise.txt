@@ -1,0 +1,4 @@
+LowestPriceFinderController.java
+
+1. Add a REST Service that returns the Hotel for a given HotelId.
+2. Add a REST Service to get a List<Hotel>

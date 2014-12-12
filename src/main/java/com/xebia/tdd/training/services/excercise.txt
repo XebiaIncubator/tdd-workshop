@@ -1,0 +1,5 @@
+LowestPriceFinderService
+
+1. Add a method that takes a list of Dates (List<Date>) and Customer Type and returns the Lowest priced hotel in form of SearchResult Object.
+2. Add a method that takes a HotelId and returns the Hotel Object.
+3. Add a method that returns a list of all hotels (List<Hotel>)
