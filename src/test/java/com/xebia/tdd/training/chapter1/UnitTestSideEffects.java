@@ -19,7 +19,7 @@ public class UnitTestSideEffects {
 		Assert.assertTrue(null == cacheService.get("Key1"));
 		
 	}
-
+	
 	@Test
 	public void shouldReturnBlankValueFromCacheIfSettingsUpdated(){
 		cacheService.setReturnBlankForNull(true);

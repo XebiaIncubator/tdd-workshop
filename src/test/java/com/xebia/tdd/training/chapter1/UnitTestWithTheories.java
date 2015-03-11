@@ -12,7 +12,7 @@ public class UnitTestWithTheories {
 
 	@DataPoints
 	public static Integer[][] Integers() {
-		return new Integer[][] { { null, 1, 1 }, { 2, null, 2 },
+		return new Integer[][] { { 2, 1, 3 }, { null, 1, 1 }, { 2, null, 2 },
 				{ null, null, 0 } };
 	}
 

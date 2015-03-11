@@ -26,18 +26,11 @@ public class HotelEmployeeService {
 	}
 	
 	
-	
-	
-	
 	public void updateEmployeeEmailAddress(HotelEmployee employee, String emailAddress) throws Exception {
 		hotelEmployeeDAO.updateEmployee(employee);
 		mailService.sendEmail(employee);
 	}
 
-	
-	
-	
-	
 	public void setHotelEmployeeDAO(HotelEmployeeDAO hotelEmployeeDAO2) {
 		hotelEmployeeDAO = hotelEmployeeDAO2;
 	}

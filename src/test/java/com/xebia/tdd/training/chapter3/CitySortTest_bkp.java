@@ -15,13 +15,13 @@ import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
-public class CitySortTest {
+public class CitySortTest_bkp {
 
 	@Mock
-	ConfigurationsDao configurationsDao;
+	ConfigurationsDao_bkp configurationsDao;
 	
 	@InjectMocks
-    CitySort citySort = new CitySort();
+    CitySort_bkpo citySort = new CitySort_bkpo();
 	
 	@BeforeClass
     public static void setUpBeforeClass() throws Exception {
@@ -33,7 +33,7 @@ public class CitySortTest {
 
     @Test
     public void shouldSortCitiesBasedOnNameInASCOrder() {
-    	Mockito.when(configurationsDao.getSortOrder()).thenReturn(CitySortOrder.ASC);
+    	Mockito.when(configurationsDao.getSortOrder()).thenReturn(CitySortOrder_bkp.ASC);
     	List<String> sortedCities = citySort.sort(Arrays.asList("New York","London","Delhi","Paris"));
     	Assert.assertThat(sortedCities, Matchers.contains("Delhi","London","New York","Paris"));
     	Mockito.verify(configurationsDao).getSortOrder();
@@ -41,7 +41,7 @@ public class CitySortTest {
 
     @Test
     public void shouldSortCitiesBasedOnNameInDESCOrder() {
-    	Mockito.when(configurationsDao.getSortOrder()).thenReturn(CitySortOrder.DESC);
+    	Mockito.when(configurationsDao.getSortOrder()).thenReturn(CitySortOrder_bkp.DESC);
     	List<String> sortedCities = citySort.sort(Arrays.asList("New York","London","Delhi","Paris"));
     	Assert.assertThat(sortedCities, Matchers.contains("Paris","New York","London","Delhi"));
     	Mockito.verify(configurationsDao).getSortOrder();

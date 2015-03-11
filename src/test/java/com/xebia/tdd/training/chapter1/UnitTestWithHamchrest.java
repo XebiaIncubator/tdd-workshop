@@ -35,7 +35,8 @@ public class UnitTestWithHamchrest {
 		Assert.assertTrue(remoteList.contains("Scala"));
 		Assert.assertTrue(remoteList.contains("Java"));
 		
-		// Assert using Hamchrest
+		
+		
 		Assert.assertThat(remoteList, contains("Scala","Java"));
 	}
 

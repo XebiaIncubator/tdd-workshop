@@ -83,7 +83,6 @@ public class HotelEmployeeServiceTest {
 		// Execution
 		employeeService.updateEmployeeEmailAddress(employee, "a@a.com");
 		
-		
 
 		InOrder inOrder = Mockito.inOrder(emailService, hotelEmployeeDAO);
 		inOrder.verify(hotelEmployeeDAO).updateEmployee(Mockito.eq(employee));

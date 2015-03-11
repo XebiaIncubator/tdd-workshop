@@ -1,6 +1,5 @@
 package com.xebia.tdd.training.chapter2;
 
-import org.apache.commons.lang3.StringUtils;
 
 public class StringCalculator_bkp {
 
@@ -32,7 +31,7 @@ public class StringCalculator_bkp {
 	}
 
 	private int getNumbericValue(String string) {
-		return StringUtils.isNoneBlank(string) ? Integer.parseInt(string) : 0;
+		return null == string ? Integer.parseInt(string) : 0;
 	}
 
 }

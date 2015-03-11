@@ -1,6 +1,6 @@
 City Sort Service
 
-Create a service that take a List of Cities as input and returns a sorted list. 
+Create a service that take a List of Cities as input and returns a sorted list based on city name. 
 List needs to be sorted in Ascending or Descending Order based of the Configuration 
 stored in the database.
 
