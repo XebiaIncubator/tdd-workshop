@@ -2,6 +2,6 @@
 <endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
   <endpoint
       name="HotelService"
-      implementation="com.xebia.tdd.training.hotelreservation.soap.HotelServiceImpl"
+      implementation="com.xebia.tdd.training.soap.HotelServiceImpl"
       url-pattern="/soap"/>
 </endpoints>

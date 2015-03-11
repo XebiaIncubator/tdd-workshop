@@ -32,7 +32,7 @@ public class DBUtil {
 		Statement statement = connection.createStatement();
 		statement
 				.execute("CREATE ALIAS GET_HOTEL_NAME FOR "
-						+ "\"com.xebia.tdd.training.hotelreservation.dao.Functions.getHotelNameFromId\" ");
+						+ "\"com.xebia.tdd.training.dao.Functions.getHotelNameFromId\" ");
 		statement.close();   
 	}
 
@@ -40,7 +40,7 @@ public class DBUtil {
 		Statement statement = connection.createStatement();
 		statement
 				.execute("CREATE ALIAS GET_HOTEL FOR "
-						+ "\"com.xebia.tdd.training.hotelreservation.dao.Functions.getHotel\" ");
+						+ "\"com.xebia.tdd.training.dao.Functions.getHotel\" ");
 		statement.close();
 	}
 

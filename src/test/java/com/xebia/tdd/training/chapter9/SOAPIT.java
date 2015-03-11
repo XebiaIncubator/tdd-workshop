@@ -14,7 +14,6 @@ import com.xebia.tdd.training.soap.HotelService;
 public class SOAPIT extends BaseSmokeTest{
 
 	
-    @Test
     public void testGetHotelName() throws Exception {
         URL wsdlUrl = new URL("http://localhost:8080/soap?wsdl");
         QName serviceName = new QName("http://soap.hotelreservation.training.tdd.xebia.com/", "HotelServiceImplService");
